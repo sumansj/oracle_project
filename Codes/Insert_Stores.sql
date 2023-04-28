@@ -1,0 +1,12 @@
+Truncate Table Stores;
+Insert into Stores(Store_Name,Website,Address,Created_On) values('Flipkarts','www.Flipkarts.com/example',null,SYSDATE);
+Insert into Stores(Store_Name,Website,Address,Created_On) values('Bengaluru',null,'230,Whitefield Main Road',SYSDATE);
+Insert into Stores(Store_Name,Website,Address,Created_On) values('Mumbai',null,'467, Bandra EAST',TO_DATE('31-12-2022','DD-MM-YYYY'));
+Insert into Stores(Store_Name,Website,Address,Created_On) values('New Delhi',null,'120, Ashok Nagar West Delhi',TO_DATE('23-11-2022','DD-MM-YYYY'));
+Insert into Stores(Store_Name,Website,Address,Created_On) values('Kolkata',null,'289, A.J.C Bose Road',TO_DATE('15-01-2023','DD-MM-YYYY'));
+Insert into Stores(Store_Name,Website,Address,Created_On) values('Hyderabad',null,'330, High Tech City',TO_DATE('31-12-2022','DD-MM-YYYY'));
+Insert into Stores(Store_Name,Website,Address,Created_On) values('Amazon','www.amazon.com/example',null,TO_DATE('02-02-2023','DD-MM-YYYY'));
+Insert into Stores(Store_Name,Website,Address,Created_On) values('London',null,'356,Park Mall Road',TO_DATE('22-01-2023','DD-MM-YYYY'));
+Insert into Stores(Store_Name,Website,Address,Created_On) values('Madrid',null,'223 Plaza MAyor',TO_DATE('20-02-2023','DD-MM-YYYY'));
+Insert into Stores(Store_Name,Website,Address,Created_On) values('Manchester',null,'540 Old Traford',TO_DATE('23-02-2023','DD-MM-YYYY'));
+COMMIT;
